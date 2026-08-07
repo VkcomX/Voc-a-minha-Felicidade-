@@ -4,7 +4,7 @@
 
 // COLOQUE A DATA EM QUE VOCÊS COMEÇARAM A NAMORAR:
 // Exemplo: new Date("2026-01-15T00:00:00")
-const relationshipStart = new Date("2026-01-01T00:00:00");
+const relationshipStart = new Date("2024-09-12T00:00:00");
 
 // ==============================
 // MENSAGENS
