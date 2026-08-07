@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Para o meu amor ❤️</title>
+<meta name="description" content="Um cantinho feito com amor, especialmente para você.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="ambient"></div>
+<div class="stars"></div>
+
+<header class="hero" id="inicio">
+  <div class="hero-heart">♥</div>
+  <p class="eyebrow">UM CANTINHO SÓ NOSSO</p>
+  <h1>Para você,<br><span>meu amor.</span></h1>
+  <p class="subtitle">Um lugar onde cada palavra, cada lembrança e cada detalhe existe para contar um pouquinho da nossa história.</p>
+  <div class="hero-actions">
+    <button class="primary-btn" onclick="goTo('mensagens')">Abrir meu coração <span>↓</span></button>
+    <button class="ghost-btn" onclick="toggleMusic()">♪ Nossa música</button>
+  </div>
+  <div class="scroll-hint">role para descobrir <span>↓</span></div>
+</header>
+
+<main>
+<section class="love-counter section" id="contador">
+  <div class="section-heading">
+    <p class="eyebrow">O NOSSO TEMPO</p>
+    <h2>Cada segundo ao seu lado vale a pena.</h2>
+  </div>
+  <div class="counter-box">
+    <div><strong id="days">0</strong><span>dias</span></div>
+    <div><strong id="hours">0</strong><span>horas</span></div>
+    <div><strong id="minutes">0</strong><span>minutos</span></div>
+    <div><strong id="seconds">0</strong><span>segundos</span></div>
+  </div>
+  <p class="counter-caption">E eu escolheria viver tudo novamente com você. ❤️</p>
+</section>
+
+<section class="section" id="mensagens">
+  <div class="section-heading">
+    <p class="eyebrow">ABRA QUANDO QUISER</p>
+    <h2>Pequenos pedaços do meu coração.</h2>
+    <p>Cada carta guarda uma mensagem diferente para você.</p>
+  </div>
+  <div class="message-grid" id="messageGrid"></div>
+</section>
+
+<section class="section gallery-section" id="fotos">
+  <div class="section-heading">
+    <p class="eyebrow">NOSSAS LEMBRANÇAS</p>
+    <h2>Momentos que eu guardaria para sempre.</h2>
+    <p>Substitua os espaços abaixo pelas fotos de vocês.</p>
+  </div>
+  <div class="gallery">
+    <div class="photo-placeholder"><span>♡</span><small>Nossa primeira foto</small></div>
+    <div class="photo-placeholder"><span>✦</span><small>Um momento especial</small></div>
+    <div class="photo-placeholder"><span>∞</span><small>Uma lembrança inesquecível</small></div>
+  </div>
+</section>
+
+<section class="section timeline-section" id="historia">
+  <div class="section-heading">
+    <p class="eyebrow">A NOSSA HISTÓRIA</p>
+    <h2>Alguns capítulos daquilo que vivemos.</h2>
+  </div>
+  <div class="timeline" id="timeline"></div>
+</section>
+
+<section class="section reasons-section" id="motivos">
+  <div class="section-heading">
+    <p class="eyebrow">POR QUE VOCÊ?</p>
+    <h2>Alguns dos infinitos motivos.</h2>
+  </div>
+  <div class="reasons" id="reasons"></div>
+</section>
+
+<section class="section occasions" id="ocasioes">
+  <div class="section-heading">
+    <p class="eyebrow">PARA CADA MOMENTO</p>
+    <h2>Abra quando precisar de mim.</h2>
+  </div>
+  <div class="occasion-grid" id="occasionGrid"></div>
+</section>
+
+<section class="final-love">
+  <div class="big-heart">♥</div>
+  <p class="eyebrow">E SE UM DIA VOCÊ ESQUECER...</p>
+  <h2>Eu escolheria você.</h2>
+  <p>Hoje. Amanhã. Depois de amanhã.<br>E em todas as vidas que eu pudesse viver.</p>
+</section>
+</main>
+
+<footer>
+  <span>Feito com amor</span><b>♥</b><span>para a pessoa mais especial da minha vida.</span>
+</footer>
+
+<div class="modal" id="modal" aria-hidden="true">
+  <div class="modal-backdrop" onclick="closeModal()"></div>
+  <article class="modal-card">
+    <button class="close" onclick="closeModal()">×</button>
+    <div class="modal-heart">♥</div>
+    <p class="modal-label" id="modalLabel"></p>
+    <h2 id="modalTitle"></h2>
+    <div class="modal-text" id="modalText"></div>
+    <div class="modal-signature">Com todo o meu amor,<br><strong>Krauss ❤️</strong></div>
+  </article>
+</div>
+
+<div class="toast" id="toast">Nossa música pode ser adicionada no script.js 🎵</div>
+<script src="script.js"></script>
+</body>
+</html>
