@@ -185,13 +185,13 @@ const timeline = [
 {
 date: "O começo",
 title: "Quando tudo começou",
-text: "Escreva aqui como vocês se conheceram e como tudo começou."
+text: "Eu estava perdido até te encontrar."
 },
 
 {
 date: "Um dia especial",
 title: "Uma lembrança que guardo",
-text: "Coloque aqui um momento que marcou vocês."
+text: "Quando estavamos começando a se conheçer e eu chamei você de princesa."
 },
 
 {
