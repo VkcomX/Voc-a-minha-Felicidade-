@@ -19,7 +19,7 @@ label: "MENSAGEM #01",
 icon: "☀",
 text: `Bom dia, meu amor. ❤️
 
-Espero que quando você ler isso, seu coração fique um pouquinho mais quentinho.
+Espero que quando você ler isso, sinta que eu estou contigo.
 
 Quero que você saiba que, mesmo nos dias comuns, existe alguém aqui pensando em você, torcendo pelo seu sorriso e agradecendo por ter você na minha vida.
 
@@ -33,13 +33,22 @@ title: "Quando sentir saudade",
 subtitle: "Abra quando quiser sentir meu abraço.",
 label: "MENSAGEM #02",
 icon: "♡",
-text: `Se você abriu isso porque está sentindo saudade, então fecha os olhos por alguns segundos.
+text: `**Só para você nunca esquecer…**
 
-Imagina que eu estou aí, te abraçando bem forte e dizendo baixinho o quanto você é importante para mim.
+Você é importante para mim.
 
-A distância pode separar dois corpos por alguns momentos, mas nunca vai conseguir apagar tudo aquilo que construímos.
+Não porque precisa ser perfeita.
+Não porque precisa acertar sempre.
+Não porque precisa estar bem ou feliz o tempo inteiro.
 
-Eu estou aqui. Sempre. ❤️`
+Você é importante simplesmente por ser quem você é.
+
+Eu gosto de você nos dias bons, mas também nos dias difíceis. Nos momentos em que você sorri e naqueles em que tudo parece pesado demais.
+
+Então, por favor, nunca se esqueça disso: você não precisa mudar, se cobrar ou ser perfeita para ter um lugar especial no meu coração.
+
+**Você já é importante para mim simplesmente por existir.** ❤️
+`
 },
 
 {
